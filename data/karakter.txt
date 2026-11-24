@@ -1,0 +1,4 @@
+Dimas Kycl Assassin 4 165 35 305
+Dimas ZIP Fighter 1 120 25 100
+Dimas ZECK Marksman 1 120 25 100
+Dimas Poni Mage 1 120 25 100
