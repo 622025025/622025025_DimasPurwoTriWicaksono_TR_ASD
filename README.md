@@ -1,6 +1,6 @@
 ## identitas
-NAMA : Dimas Purwo Tri Wicaksono
-NIM  : 622025025
+- NAMA : Dimas Purwo Tri Wicaksono
+- NIM  : 622025025
 
 ## Deskripsi Aplikasi
 Aplikasi Pengelolaan Karakter, Misi, dan Navigasi Peta Dunia Fantasi adalah aplikasi permainan peran (Role-Playing Game / RPG) berbasis konsol yang dibangun menggunakan bahasa C (standar C99) dengan arsitektur modular (include/, src/, dan data/). Aplikasi ini dirancang untuk membantu pengguna mengelola akun petualang, membuat dan memilih karakter aktif dengan peran (role) serta statistik tertentu, membeli perlengkapan sesuai role melalui validasi gold, menjalankan misi secara terstruktur menggunakan Queue dan Stack, serta menjelajahi wilayah dunia fantasi berbasis Graph dan algoritma jalur terpendek Dijkstra. Seluruh data penting disimpan secara persisten ke dalam berkas teks dan dilengkapi kontrol layar konsol (system("cls"), getch(), serta perulangan sub-menu) agar alur penggunaan tetap rapi dan konsisten.
@@ -37,8 +37,8 @@ Perulangan khusus di dalam sub-menu Sorting & Searching Karakter, Sorting & Sear
 Untuk mengompilasi dan menggabungkan (compile & link) seluruh kode 
 
 ## Kompilasi Kode
-- sumber C menjadi file executable app.exe :
-gcc -std=c99 -Wall -Wextra -Iinclude src\main.c src\auth.c src\karakter.c src\inventori.c src\misi.c src\peta.c -o app.exe
+- sumber C menjadi file executable app.exe : 
+  gcc -std=c99 -Wall -Wextra -Iinclude src\main.c src\auth.c src\karakter.c src\inventori.c src\misi.c src\peta.c -o app.exe
 
-- untuk menjalankan hasil kompilasi tersebut secara langsung.
-.\app.exe
+- untuk menjalankan hasil kompilasi tersebut secara langsung : 
+  .\app.exe
